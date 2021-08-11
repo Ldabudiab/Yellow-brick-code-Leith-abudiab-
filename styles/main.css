@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(151, 242, 248);
+}
+
+
+
+ul{
+        list-style-type: none ;
+        margin: 0;
+        padding: 0;
+
+}
+
+nav li {
+
+    display: inline;
+
+}
+
+html{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-friends{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.friend{
+max-width: 200px;
+height: 400px;
+overflow: hidden;
+
+}
+
+.friend img {
+    height: auto;
+    width: 100%
+    
+}
+
+main{ 
+    display: flex;  
+}
+
+
+
+aside
+{ flex: 2;}
+
+.main-content img{
+    height: auto;
+    width: 100%;
+    flex: 7;
+}
+
